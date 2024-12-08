@@ -1,0 +1,15 @@
+{
+  "originHash" : "a5245e0b70351b4eb717e72d98dcbb53b5d9553175f84c17427b1b30e485e94c",
+  "pins" : [
+    {
+      "identity" : "panmodal",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/slackhq/PanModal",
+      "state" : {
+        "revision" : "b012aecb6b67a8e46369227f893c12544846613f",
+        "version" : "1.2.7"
+      }
+    }
+  ],
+  "version" : 3
+}

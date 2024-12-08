@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C5CF8F682D04901500D891EA /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = C5CF8F672D04901500D891EA /* PanModal */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C55546F52D041EED005D5DE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5CF8F682D04901500D891EA /* PanModal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +96,7 @@
 				C55546E02D041EEB005D5DE9 /* Spotify */,
 				C55546F72D041EED005D5DE9 /* SpotifyTests */,
 				C55547012D041EED005D5DE9 /* SpotifyUITests */,
+				C5CF8F662D04901500D891EA /* Frameworks */,
 				C55546DF2D041EEB005D5DE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +109,13 @@
 				C55546FE2D041EED005D5DE9 /* SpotifyUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C5CF8F662D04901500D891EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			);
 			name = Spotify;
 			packageProductDependencies = (
+				C5CF8F672D04901500D891EA /* PanModal */,
 			);
 			productName = Spotify;
 			productReference = C55546DE2D041EEB005D5DE9 /* Spotify.app */;
@@ -208,6 +222,9 @@
 			);
 			mainGroup = C55546D52D041EEB005D5DE9;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C5CF8F652D048F6B00D891EA /* XCRemoteSwiftPackageReference "PanModal" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C55546DF2D041EEB005D5DE9 /* Products */;
 			projectDirPath = "";
@@ -563,6 +580,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C5CF8F652D048F6B00D891EA /* XCRemoteSwiftPackageReference "PanModal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/slackhq/PanModal";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C5CF8F672D04901500D891EA /* PanModal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5CF8F652D048F6B00D891EA /* XCRemoteSwiftPackageReference "PanModal" */;
+			productName = PanModal;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C55546D62D041EEB005D5DE9 /* Project object */;
 }
